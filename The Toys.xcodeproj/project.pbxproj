@@ -23,6 +23,9 @@
 		0E0A4A242888896F00F76AC4 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A232888896F00F76AC4 /* CartViewController.swift */; };
 		0E0A4A272888898700F76AC4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A262888898700F76AC4 /* MapViewController.swift */; };
 		0E0A4A2C288889A800F76AC4 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A2B288889A800F76AC4 /* UserViewController.swift */; };
+		0E0A4A3128888DB700F76AC4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A3028888DB700F76AC4 /* Product.swift */; };
+		0E0A4A3528888E3E00F76AC4 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A3428888E3E00F76AC4 /* ProductTableViewCell.swift */; };
+		0E0A4A382888947200F76AC4 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A372888947200F76AC4 /* ProductDetailViewController.swift */; };
 		5A4D14C2AA92EDBF9781E339 /* Pods_The_Toys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676D1F6ECC939CD24DFC75EF /* Pods_The_Toys.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,9 @@
 		0E0A4A232888896F00F76AC4 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		0E0A4A262888898700F76AC4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0E0A4A2B288889A800F76AC4 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		0E0A4A3028888DB700F76AC4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0E0A4A3428888E3E00F76AC4 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		0E0A4A372888947200F76AC4 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		55724934946B5645304C11A4 /* Pods-The Toys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Toys.debug.xcconfig"; path = "Target Support Files/Pods-The Toys/Pods-The Toys.debug.xcconfig"; sourceTree = "<group>"; };
 		676D1F6ECC939CD24DFC75EF /* Pods_The_Toys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Toys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		728D00B76E57C515231C2E7A /* Pods-The Toys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Toys.release.xcconfig"; path = "Target Support Files/Pods-The Toys/Pods-The Toys.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +123,7 @@
 		0E0A4A012888864200F76AC4 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				0E0A4A3428888E3E00F76AC4 /* ProductTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -171,6 +178,7 @@
 		0E0A4A1B288888BC00F76AC4 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				0E0A4A2F28888D9300F76AC4 /* Model */,
 				0E0A4A1C288888F000F76AC4 /* Controller */,
 			);
 			path = Shop;
@@ -180,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				0E0A4A202888894600F76AC4 /* ShopViewController.swift */,
+				0E0A4A372888947200F76AC4 /* ProductDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -206,6 +215,14 @@
 				0E0A4A2B288889A800F76AC4 /* UserViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E0A4A2F28888D9300F76AC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A4A3028888DB700F76AC4 /* Product.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		80106AD98B6A0EB0916A925E /* Pods */ = {
@@ -341,6 +358,7 @@
 			files = (
 				0E0A49D42888701200F76AC4 /* ViewController.swift in Sources */,
 				0E0A4A0E2888873600F76AC4 /* TemplateButton.swift in Sources */,
+				0E0A4A3528888E3E00F76AC4 /* ProductTableViewCell.swift in Sources */,
 				0E0A4A2C288889A800F76AC4 /* UserViewController.swift in Sources */,
 				0E0A4A212888894600F76AC4 /* ShopViewController.swift in Sources */,
 				0E0A49D02888701200F76AC4 /* AppDelegate.swift in Sources */,
@@ -351,7 +369,9 @@
 				0E0A4A242888896F00F76AC4 /* CartViewController.swift in Sources */,
 				0E0A4A08288886D700F76AC4 /* AuthorizationViewController.swift in Sources */,
 				0E0A49D22888701200F76AC4 /* SceneDelegate.swift in Sources */,
+				0E0A4A382888947200F76AC4 /* ProductDetailViewController.swift in Sources */,
 				0E0A4A112888875F00F76AC4 /* TemplateTextField.swift in Sources */,
+				0E0A4A3128888DB700F76AC4 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
