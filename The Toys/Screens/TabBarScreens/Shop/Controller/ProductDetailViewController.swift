@@ -236,6 +236,11 @@ class ProductDetailViewController: UIViewController {
     
     @objc func addToCartButtonDidTap() {
         
+        guard let navVC = tabBarController?.viewControllers![1] as? UINavigationController,
+              let cartTableViewController = navVC.topViewController as? CartViewController else { return }
+        if let product = self.product {
+            cartTableViewController.addProductToCart(with: product, and: self.counter)
+        }
         self.navigationController?.popViewController(animated: true)
     }
     
