@@ -340,6 +340,8 @@ class CartViewController: TemplateViewController {
             self.cartProducts.removeAll()
             self.tableView.reloadData()
             self.totalPrice.text = "0.0"
+            self.phoneNumberTextField.text = ""
+            self.deliveryAddressTextField.text = ""
         }
     }
     
