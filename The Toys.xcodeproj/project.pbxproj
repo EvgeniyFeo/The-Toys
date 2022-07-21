@@ -28,6 +28,7 @@
 		0E0A4A382888947200F76AC4 /* ProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A372888947200F76AC4 /* ProductDetailViewController.swift */; };
 		0E0A4A3C28889C2C00F76AC4 /* ProductsAddedToCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A3B28889C2C00F76AC4 /* ProductsAddedToCart.swift */; };
 		0E0A4A4028889C8F00F76AC4 /* ProductsInCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A3F28889C8F00F76AC4 /* ProductsInCartTableViewCell.swift */; };
+		0E0A4A442889503A00F76AC4 /* ShopOnMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A432889503A00F76AC4 /* ShopOnMap.swift */; };
 		5A4D14C2AA92EDBF9781E339 /* Pods_The_Toys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676D1F6ECC939CD24DFC75EF /* Pods_The_Toys.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		0E0A4A372888947200F76AC4 /* ProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailViewController.swift; sourceTree = "<group>"; };
 		0E0A4A3B28889C2C00F76AC4 /* ProductsAddedToCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsAddedToCart.swift; sourceTree = "<group>"; };
 		0E0A4A3F28889C8F00F76AC4 /* ProductsInCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsInCartTableViewCell.swift; sourceTree = "<group>"; };
+		0E0A4A432889503A00F76AC4 /* ShopOnMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopOnMap.swift; sourceTree = "<group>"; };
 		55724934946B5645304C11A4 /* Pods-The Toys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Toys.debug.xcconfig"; path = "Target Support Files/Pods-The Toys/Pods-The Toys.debug.xcconfig"; sourceTree = "<group>"; };
 		676D1F6ECC939CD24DFC75EF /* Pods_The_Toys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Toys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		728D00B76E57C515231C2E7A /* Pods-The Toys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Toys.release.xcconfig"; path = "Target Support Files/Pods-The Toys/Pods-The Toys.release.xcconfig"; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 		0E0A4A19288888AA00F76AC4 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				0E0A4A4228894FD600F76AC4 /* Model */,
 				0E0A4A1E2888891200F76AC4 /* Controller */,
 			);
 			path = Map;
@@ -235,6 +238,14 @@
 			isa = PBXGroup;
 			children = (
 				0E0A4A3B28889C2C00F76AC4 /* ProductsAddedToCart.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E0A4A4228894FD600F76AC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A4A432889503A00F76AC4 /* ShopOnMap.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -388,6 +399,7 @@
 				0E0A4A112888875F00F76AC4 /* TemplateTextField.swift in Sources */,
 				0E0A4A4028889C8F00F76AC4 /* ProductsInCartTableViewCell.swift in Sources */,
 				0E0A4A3128888DB700F76AC4 /* Product.swift in Sources */,
+				0E0A4A442889503A00F76AC4 /* ShopOnMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
