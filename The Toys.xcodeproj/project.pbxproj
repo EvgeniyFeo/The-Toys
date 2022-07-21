@@ -29,6 +29,8 @@
 		0E0A4A3C28889C2C00F76AC4 /* ProductsAddedToCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A3B28889C2C00F76AC4 /* ProductsAddedToCart.swift */; };
 		0E0A4A4028889C8F00F76AC4 /* ProductsInCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A3F28889C8F00F76AC4 /* ProductsInCartTableViewCell.swift */; };
 		0E0A4A442889503A00F76AC4 /* ShopOnMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A432889503A00F76AC4 /* ShopOnMap.swift */; };
+		0E0A4A49288950E300F76AC4 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A48288950E300F76AC4 /* UserData.swift */; };
+		0E0A4A4D2889518600F76AC4 /* FillUserDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A4A4C2889518600F76AC4 /* FillUserDataViewController.swift */; };
 		5A4D14C2AA92EDBF9781E339 /* Pods_The_Toys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676D1F6ECC939CD24DFC75EF /* Pods_The_Toys.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		0E0A4A3B28889C2C00F76AC4 /* ProductsAddedToCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsAddedToCart.swift; sourceTree = "<group>"; };
 		0E0A4A3F28889C8F00F76AC4 /* ProductsInCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsInCartTableViewCell.swift; sourceTree = "<group>"; };
 		0E0A4A432889503A00F76AC4 /* ShopOnMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopOnMap.swift; sourceTree = "<group>"; };
+		0E0A4A48288950E300F76AC4 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		0E0A4A4C2889518600F76AC4 /* FillUserDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillUserDataViewController.swift; sourceTree = "<group>"; };
 		55724934946B5645304C11A4 /* Pods-The Toys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Toys.debug.xcconfig"; path = "Target Support Files/Pods-The Toys/Pods-The Toys.debug.xcconfig"; sourceTree = "<group>"; };
 		676D1F6ECC939CD24DFC75EF /* Pods_The_Toys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Toys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		728D00B76E57C515231C2E7A /* Pods-The Toys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Toys.release.xcconfig"; path = "Target Support Files/Pods-The Toys/Pods-The Toys.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +165,7 @@
 		0E0A4A182888889C00F76AC4 /* User */ = {
 			isa = PBXGroup;
 			children = (
+				0E0A4A47288950CD00F76AC4 /* Model */,
 				0E0A4A1F2888891900F76AC4 /* Controller */,
 			);
 			path = User;
@@ -222,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				0E0A4A2B288889A800F76AC4 /* UserViewController.swift */,
+				0E0A4A4C2889518600F76AC4 /* FillUserDataViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -246,6 +252,14 @@
 			isa = PBXGroup;
 			children = (
 				0E0A4A432889503A00F76AC4 /* ShopOnMap.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E0A4A47288950CD00F76AC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E0A4A48288950E300F76AC4 /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -392,6 +406,7 @@
 				0E0A4A152888884A00F76AC4 /* TabBarViewController.swift in Sources */,
 				0E0A4A042888868600F76AC4 /* TemplateViewController.swift in Sources */,
 				0E0A4A272888898700F76AC4 /* MapViewController.swift in Sources */,
+				0E0A4A4D2889518600F76AC4 /* FillUserDataViewController.swift in Sources */,
 				0E0A4A242888896F00F76AC4 /* CartViewController.swift in Sources */,
 				0E0A4A08288886D700F76AC4 /* AuthorizationViewController.swift in Sources */,
 				0E0A49D22888701200F76AC4 /* SceneDelegate.swift in Sources */,
@@ -399,6 +414,7 @@
 				0E0A4A112888875F00F76AC4 /* TemplateTextField.swift in Sources */,
 				0E0A4A4028889C8F00F76AC4 /* ProductsInCartTableViewCell.swift in Sources */,
 				0E0A4A3128888DB700F76AC4 /* Product.swift in Sources */,
+				0E0A4A49288950E300F76AC4 /* UserData.swift in Sources */,
 				0E0A4A442889503A00F76AC4 /* ShopOnMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
